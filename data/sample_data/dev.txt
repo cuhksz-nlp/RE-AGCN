@@ -1,0 +1,1 @@
+student	association	Member-Collection(e1,e2)	The <e1> student </e1> <e2> association </e2> is the voice of the undergraduate student population of the State University of New York at Buffalo .
