@@ -201,7 +201,7 @@ class BertTokenizer(object):
         else:
             vocab_file = pretrained_model_name_or_path
         with open(vocab_file, "w", encoding="utf-8") as writer:
-            for word in self.vocab:
+            for word,idx in sorted(self.vocab.items(), key=lambda x:x[1]):
                 writer.write(word+"\n")
 
 

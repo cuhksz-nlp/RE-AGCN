@@ -411,6 +411,7 @@ def test_func(args):
     if args.vocab_file is None:
         args.vocab_file = os.path.join(args.model_path, VOCAB_NAME)
     tokenizer = BertTokenizer(args.vocab_file, do_lower_case=args.do_lower_case, max_len=args.max_seq_length)
+    tokenizer.add_never_split_tokens(["<e1>","</e1>","<e2>","</e2>"])
     config = BertConfig.from_json_file(os.path.join(args.model_path, "config.json"))
     model = ReAgcn.from_pretrained(args.model_path, config=config)
     dict_bin = torch.load(os.path.join(args.model_path, "dict.bin"))
