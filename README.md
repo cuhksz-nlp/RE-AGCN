@@ -1,4 +1,4 @@
-# RE-TaMM
+# RE-AGCN
 
 This is the implementation of [Dependency-driven Relation Extraction with Attentive Graph Convolutional Networks](https://aclanthology.org/2021.acl-long.344.pdf) at ACL 2021.
 
