@@ -1,0 +1,2 @@
+audits	waste	Message-Topic(e1,e2)	The most common <e1> audits </e1> were about <e2> waste </e2> and recycling .
+company	chairs	Product-Producer(e2,e1)	The <e1> company </e1> fabricates plastic <e2> chairs </e2> .
