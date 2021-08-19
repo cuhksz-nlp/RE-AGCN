@@ -2,7 +2,7 @@
 
 ## Requirement
 
-`StanfordCoreNLP` is required to obtain the dependency trees for all dataset.
+`StanfordCoreNLP` is required to obtain the dependency trees for all dataset. Please download version [3.9.2](https://stanfordnlp.github.io/CoreNLP/history.html) and put the folder `stanford-corenlp-full-2018-10-05` under the current directory.
 
 ## Obtain the data
 
