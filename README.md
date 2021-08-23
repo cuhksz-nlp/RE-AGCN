@@ -50,7 +50,6 @@ Here are some important parameters:
 
 ## To-do List
 
-* Release the models.
 * Regular maintenance.
 
 You can leave comments in the `Issues` section, if you want us to implement any functions.
