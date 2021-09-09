@@ -27,11 +27,13 @@ Our code works with the following environment.
 
 To obtain the data, you can go to [`data`](./data) directory for details.
 
-## Downloading BERT and RE-TaMM
+## Downloading BERT 
 
 In our paper, we use BERT ([paper](https://www.aclweb.org/anthology/N19-1423/)) as the encoder.
 
 For BERT, please download pre-trained BERT-Base and BERT-Large English from [Google](https://github.com/google-research/bert) or from [HuggingFace](https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz). If you download it from Google, you need to convert the model from TensorFlow version to PyTorch version.
+
+## Downloading our pre-trained RE-AGCN
 
 For RE-AGCN, you can download the models we trained in our experiments from [Google Drive](https://drive.google.com/drive/folders/1HoVc4y8tZNm7h9MorqgIvRJo64qL_0HM?usp=sharing).
 
