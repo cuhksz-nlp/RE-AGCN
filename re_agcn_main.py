@@ -180,7 +180,7 @@ def train(args, model, tokenizer, processor, device, n_gpu, results={}):
     loss = tr_loss / nb_tr_steps if args.do_train else None
     return loss, global_step
 
-def evaluate(args, model, tokenizer, processor, device, mode="test", output_dir=None):
+def evaluate(args, model, tokenizer, processor, device, mode="test", output_dir='./'):
     label_map = processor.labels_dict
     id2label_map = {i : label for label, i in processor.labels_dict.items()}
 
@@ -416,6 +416,7 @@ def test_func(args):
     model = ReAgcn.from_pretrained(args.model_path, config=config)
     dict_bin = torch.load(os.path.join(args.model_path, "dict.bin"))
     processor = RE_Processor(dep_type=config.dep_type, types_dict=dict_bin["types_dict"], labels_dict=dict_bin["labels_dict"])
+    model.to(device)
     result = evaluate(args, model, tokenizer, processor, device, mode="test")
     logger.info(result)
 
