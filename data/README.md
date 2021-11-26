@@ -10,3 +10,6 @@ Download the dataset from official website and do the pre-processing in the form
 
 Follow the script `data_processes.sh` to obtain the dependency trees for dataset.
 
+# Update 
+Nov. 16, 2021: we release the pre-processed data of SemEval. We are not able to release the data of ACE05 because of copyright issues.
+
