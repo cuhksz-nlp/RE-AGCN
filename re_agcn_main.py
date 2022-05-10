@@ -124,8 +124,8 @@ def train(args, model, tokenizer, processor, device, n_gpu, results={}):
     train_sampler = RandomSampler(train_data)
     train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=args.train_batch_size)
 
-    model.train()
     for epoch_num in trange(int(args.num_train_epochs), desc="Epoch"):
+        model.train()
         tr_loss = 0
         nb_tr_examples, nb_tr_steps = 0, 0
         train_iter = tqdm(train_dataloader, desc="Iteration")
