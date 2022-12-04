@@ -2,18 +2,21 @@
 
 This is the implementation of [Dependency-driven Relation Extraction with Attentive Graph Convolutional Networks](https://aclanthology.org/2021.acl-long.344/) at ACL 2021.
 
-You can e-mail Guimin Chen at `chenguimin@foxmail.com` or `cuhksz.nlp@gmail.com` or Yuanhe Tian at `yhtian@uw.edu`, if you have any questions.
+You can e-mail Yuanhe Tian at `yhtian@uw.edu`, if you have any questions.
 
 ## Citation
 
 If you use or extend our work, please cite our paper at ACL 2021.
 
 ```
-@inproceedings{tian2021dependency,
-  title={Dependency-driven Relation Extraction with Attentive Graph Convolutional Networks},
-  author={Tian, Yuanhe and Chen, Guimin and Song, Yan and Wan, Xiang},
-  booktitle={Proceedings of the Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing},
-  year={2021}
+@inproceedings{tian-etal-2021-dependency,
+    title = "Dependency-driven Relation Extraction with Attentive Graph Convolutional Networks",
+    author = "Tian, Yuanhe and Chen, Guimin and Song, Yan and Wan, Xiang",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    pages = "4458--4471",
 }
 ```
 
