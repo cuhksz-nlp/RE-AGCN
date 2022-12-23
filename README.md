@@ -4,6 +4,13 @@ This is the implementation of [Dependency-driven Relation Extraction with Attent
 
 You can e-mail Yuanhe Tian at `yhtian@uw.edu`, if you have any questions.
 
+
+**Visit our [homepage](https://github.com/synlp/.github) to find more our recent research and softwares for NLP (e.g., pre-trained LM, POS tagging, NER, sentiment analysis, relation extraction, datasets, etc.).**
+
+## Upgrades of RE-AGCN
+
+We are improving our RE-AGCN. For updates, please visit [HERE](https://github.com/synlp/RE-AGCN).
+
 ## Citation
 
 If you use or extend our work, please cite our paper at ACL 2021.
